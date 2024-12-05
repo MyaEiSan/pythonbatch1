@@ -1,0 +1,204 @@
+=> Environment 
+    (i) Text Editor eg.vscode,sublime text 
+    (ii) Integrated Development Environment (IDE) က language တစ်ခုဆိုတစ်ခုကိုပဲ ကောင်းကောင်း support ပေးမှာ တခြား language တွေ သုံးလို့မရတာတော့မဟုတ်ဘူး သုံးလို့တော့ ရမယ် ဒါပေမယ့် ကောင်းကောင်း support မပေးနိုင်တာမျိုးတွေ ဖြစ်မယ်။ example phpStorm,pycharm
+
+=> Who Use Python 
+    1. Software Developers 
+        Backend development, web applications (eg. Django, Flask)
+    2. Data Scientists and Analysts
+        Data analysis, data visualization and statistical modeling 
+    3. AI (Artificial Intelligence) and ML (Machine Learning) 
+        Frameworks => TensorFlow,Pytorch,Keras
+    4. Engineers 
+        automation, simulations, (eg. Raspberry Pi) 
+    5. Cybersecurity / Networking 
+        creating custom security tools 
+    6. Game Developers 
+        Pygame 
+
+=> What is programming 
+        commanding computers using a language understood by computers 
+
+    1. Creating Algorithms 
+        sorting to number and datas 
+    2. Writing Code 
+        Programmer have to code (Python, Java, C++,etc...)
+    3. Compiling or Interpreting Code 
+            Compiler :  All Code in one time code တွေအားလုံးပေါင်းပြီးမှ computer က နားလည်အောင်ပေးတာ, hard disk ထဲမှာ သိမ်းတာ
+            Interpreter : Code in one line တစ်ကြောင်းရေးတစ်ကြောင်း ဘာသာပြန်ပေးလိုက်တာ 
+
+    4. Problem-Solving
+    5. Debugging 
+        Bug 
+    6. Testing 
+        Test Program 
+    7. Creating Software Applications 
+        Create Software (Web App, Mobile App, Desktop App)
+    8. Automation 
+        Repetitive Process 
+    9. Building User Interface (UI)
+    10.  Maintaing and Optimizing 
+
+
+=> What is Programmer 
+1. Writing Code 
+2. Creating Software Applications 
+    Web Development 
+    Game Development 
+    Data Science 
+    Cybersecurity 
+3. Problem Solving 
+4. Testing and Debugging 
+5. Optimizing Code 
+6. Collaboration 
+    Developers, Designer, Project Manager 
+7. Maintaining Software 
+
+=> What is Programming Language 
+1. Syntax 
+2. Instruction 
+3. Data Types 
+4. Compilers and Interpreters 
+    Compilers Languages : (C,C++,Go(Goland).etc)
+    Interpreters Languages : Python 
+    * compilter က program run တဲ့အခါ ပိုမြန်တယ် 
+5. Variables and Functions 
+6. High-Level or Low-Level Language 
+    High-Level Language (Phthon, Java, etc..) လူတွေနားလည်တဲ့ စာသားတွေသုံးပြီး ဖန်တီးထားတဲ့ code တွေ ကို သုံးတဲ့ language
+    Low-Level Languages (Assembly, Machine Code)
+    လူတွေနားလည်ဖို့ခတ်တဲ့ code တွေ 
+    Assembly Code 
+    Machine Language 
+    Hardware 
+
+=> Why HTML is not programming language? 
+    Hypertext Markup Language (website မှာ information တွေဖော်ပြဖို့အတွက်)
+    No Logic, Data Manipulation, Computation 
+    1. No Logic and Control Structures 
+    2. Description 
+    3. Variables and Functions 
+    4. Static Content 
+    5. either Compiler nor Interpreter 
+
+ => Why CSS is not programming language? 
+    Cascadomg Style Sheets 
+        ther Compiler nor Interpreter 
+        SSL(Style Sheet Language) or SPL(Static Presentation Language) 
+        Not Logic-based Language so can't computation 
+
+
+=> Javascript 
+    Interpreter 
+        Browser 
+    JIT (Just-in-Time) Compilation 
+
+=>Markup Language vs Programming Language 
+    Markup = Description
+    Programming = order 
+
+=> Compiler vs Interpreter 
+    (Compiler = Source Code to Machine Code) 
+    =1. program.go 
+
+        import "fmt"
+            func myfun(){
+                fmt.Println("Hello Aung Aung");
+            }
+    = 2. Compiling 
+        go build -o program program.go 
+
+    = 3. Linking 
+        Go Runtime, Libraries, Dependency Files, Binary File 
+
+    = 4. Execution(Machine Code) 
+
+
+=> Interpreter 
+    Python source code -> byte code (.pyc format) -> Interpreted line by line (Python Virtual Machine (PVM))
+
+=> How Python Code Work ? 
+    Interpreted Language 
+    compilation and interpretation , are both included 
+
+    1. Python source code (.py) 
+        print("Hello Aung Aung")
+
+    2. Interpretation 
+    3. byte code (.pyc format) 
+       Bytecode is Platform-independent 
+       PVM -> CPU -> run 
+    4. Just-in-Time (JIT) Compilation 
+        most popular compilar = pypy 
+
+=>Advantage of Python Programming Language 
+
+   1. Easy Syntax 
+        prin("Hello World") 
+   2. Interpreted Language 
+   3. High-Level Language 
+   4. Dynamic Typing Language 
+        eg : Statically Typing Language ( C, C++, C#, Java, Go Switft)
+
+        eg: (java example code) 
+
+        public class Main{
+            public static void main(String[] args){
+                int x = 100; // Static type : int 
+                double y = 9.99; // Static type : double 
+                String name = "Aung Aung"; // Static type : String 
+
+                System.out.println("x value is " + x);
+                System.out.println("y value is " + y);
+                System.out.println("name value is " + name);
+            }
+        }
+
+        eg: (Phthon example code) 
+
+        x = 10 # integer 
+        name = "Maung Maung" # string 
+
+        print("x value is " + x) 
+        print("name value is " + name) 
+        
+   5. General purpose Language 
+      Web Development 
+      Data Analysis 
+      Machine Learning 
+      Artificial Intelligence 
+      Game Development 
+      Mobile Applications 
+
+    https://www.python.org/
+
+    sudo apt update 
+    sudo apt upgrade -y 
+
+    => Install on ubuntu 
+    ls 
+    tar -xvf Python-3.12.6.tar.xy
+    ls 
+    cd Python-3.12 
+    ls 
+    ./configure 
+    make 
+    sudo make install 
+
+
+
+    => Check Version 
+    python --version (or) python3 --version (or) py --version 
+
+    python3.12 --version 
+
+    python3 
+    ctl+d (or) exit()
+
+    python3 l1sample.py 
+    python  l1sample.py
+    py l1sample.py
+
+
+=> Comment ( inline comment )
+#
+
